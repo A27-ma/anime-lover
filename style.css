@@ -1,0 +1,113 @@
+body {
+   
+    justify-content: center;
+    background: url(ninja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: inherit;
+}
+
+/*       front screen HOME */
+
+
+
+
+
+.navbar {
+    position: relative;
+    display: inline-block;
+}
+
+.boxs {
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 10px 0px white; */
+    z-index: 1;   
+}
+
+.navbar:hover .boxs {
+    display: block;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li {  
+    padding: 9px 23px;
+    margin: 3px auto;
+    background-color: blue;
+    border: 1px solid orange;
+    border-radius: 24px;
+}
+
+.navbar ul li:hover {
+    background-color: red;
+    display: block;
+    /* transform: scale(0.5);
+    transition: 2s; */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar img{
+    
+    filter: invert(1);
+    width: 61px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+    height: 55px;
+    
+}
+
+section .logo img{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    margin: 23px 179px;
+    /* border-radius: 66px; */
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    
+    box-shadow: 2px 2px 2px green;
+}
+
+section .logo img:hover{
+    transform: scale(1.5 , 1.5);
+    transition-duration: 4s;
+}
+
+section .text1{
+    padding: 0px 0px;
+    width: 533px;
+    display: flex;
+    justify-content: center;
+    margin: -164px 179px;
+    border-radius: 66px;
+    /* clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); */
+
+    /* box-shadow: 2px 2px 2px green; */
+}
+
+.detail  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    /* border: 1px solid rgb(138, 137, 137); */
+}
+.detail:hover{
+    box-shadow: 2px 2px 2px green;
+    background-color: black;
+    color: red;
+    display: inline-block;
+}
+
+

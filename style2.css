@@ -1,0 +1,65 @@
+/*                all anime button */
+
+body {
+
+    justify-content: center;
+    background: url(ninja.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+
+
+}
+
+.searched input {
+    display: flex;
+    width: 500px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+.body1 {
+    width: 165px;
+    height: 143px;
+
+}
+
+.body1 img {
+    border: 2px solid rgb(244, 244, 245);
+    display: block;
+    width: 162px;
+    height: 116px;
+}
+
+.body1 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#anime:hover {
+    display: block;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    /* grid-template-rows: repeat(1, 2fr); */
+    grid-gap: 2.5rem;
+    grid-template-rows: repeat(auto-fit, 5, 2fr);
+}
+
+section a button {
+    color: blue;
+    width: 165px;
+    height: 113px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: larger;
+    font-weight: bold;
+
+}
